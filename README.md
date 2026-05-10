@@ -1,17 +1,17 @@
 # AppSec Tools Demo (CI/CD Security)
 
-Bu repo, AppSec portfolyomu "delivery kasi" ile guclendirmek icin CI/CD guvenlik demolari icerir:
-SAST + SCA + secrets scan + SBOM.
+This repository contains CI/CD security demos to complement my AppSec portfolio:
+SAST + SCA + secrets scanning + SBOM generation.
 
-Hedef: pipeline calissin, ciktilar README'de gorunsun, her tool icin kisa "ne yakalar / nasil yorumlarim" notu olsun.
+Goal: make pipelines run end-to-end, publish the outputs, and document how to interpret results (signal vs noise).
 
-## Plan (High-Level)
-- SAST: CodeQL veya Semgrep
-- SCA: Dependabot + osv-scanner (veya benzeri)
+## High-Level Plan
+- SAST: CodeQL or Semgrep
+- SCA: Dependabot + osv-scanner (or equivalents)
 - Secrets: gitleaks
 - SBOM: syft
 
-Detay: `docs/PLAN.md`
+Details: `docs/PLAN.md`
 
-## Portfolio Baglanti
-Ana portfolio repo: `https://github.com/efeberktnci/appsec-portfolio`
+## Portfolio Link
+Main portfolio: `https://github.com/efeberktnci/appsec-portfolio`
